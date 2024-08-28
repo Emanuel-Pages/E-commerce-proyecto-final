@@ -16,9 +16,9 @@
         "price": 200,
         "description": "Descripción del producto 2",
         "images": [
-            "./assets/jordan add.jpg",
-            "./assets/jordan add2.jpeg",
-            "ruta-a-tu-imagen/producto2-3.jpg"
+            "./assets/jordan nike.jpg",
+            "./assets/jordan nike2.jpg",
+            "./assets/jordan nike3.jpg"
         ]
     },
     {
