@@ -16,8 +16,8 @@
         "price": 200,
         "description": "Descripción del producto 2",
         "images": [
-            "ruta-a-tu-imagen/producto2-1.jpg",
-            "ruta-a-tu-imagen/producto2-2.jpg",
+            "./assets/jordan add.jpg",
+            "./assets/jordan add2.jpeg",
             "ruta-a-tu-imagen/producto2-3.jpg"
         ]
     },
