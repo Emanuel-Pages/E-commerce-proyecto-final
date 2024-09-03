@@ -24,5 +24,18 @@
             <button id="checkout-btn">Comprar</button>
         </section>
     </main>
+    <script>
+        const checkoutBtn = document.getElementById('checkout-btn');
+        
+        if (checkoutBtn) {
+            checkoutBtn.onclick = () => {
+                alert('Gracias por tu compra!');
+                clearCart();
+                updateCart();
+            };
+        } else {
+            console.error('El botón con id "checkout-btn" no fue encontrado en el DOM.');
+        }
+    </script>
 </body>
 </html>
