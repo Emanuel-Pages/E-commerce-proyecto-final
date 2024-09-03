@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "name": "Producto 1",
-        "price": 100,
-        "description": "Descripción del producto 1",
+        "name": "adidas yeezy 350",
+        "price": 230000,
+        "description": "adidas + YEEZY announce the YEEZY BOOST 350 V2 Beluga RF/Steeple Grey/Solar Red. It will be available globally on December 18, 2021 with a recommended retail price €/$240 adult, €/$160 kids, €/$140infant. The YEEZY BOOST 350 V2 Beluga RF/Steeple Grey/Solar Red features an upper composed of multi-toned re-engineered primeknit with reflective threading. The post-dyed monofilament side stripe is woven into the upper. The midsole utilizes adidas’ innovative BOOST™ technology. The YEEZY BOOST 350 V2 Beluga RF/Steeple Grey/Solar Red will be available on adidas.com/YEEZY, on CONFIRMED in North America and Europe, on the adidas app in select countries, in select retailers, and on YEEZY SUPPLY.",
         "images": [
             "./assets/yeezy add.jpg",
             "./assets/yeezy add2.jpg",
@@ -12,9 +12,9 @@
     },
     {
         "id": 2,
-        "name": "Producto 2",
-        "price": 200,
-        "description": "Descripción del producto 2",
+        "name": "nike jordan",
+        "price": 200000,
+        "description": "¿Qué ocurre cuando le añades elegancia a un diseño clásico? El AJ1 Craft. La gamuza suave, la lona de cáñamo y el borde expuesto alrededor del cuello agregan una textura de buen gusto al calzado que ya conoces y te encanta. Y siguen siendo perfectos para el uso diario, con una cómoda confección de suela tipo cupsole y amortiguación Nike Air en la planta del pie. BeneficiosLa unidad Nike Air encapsulada en la suela y la espuma de la entresuela amortiguan cada paso. El cuello con amortiguación crea un ajuste cómodo alrededor del tobillo. La suela de goma ofrece tracción duradera. Datos del producto Logotipo Wings en el talónLogotipo Swoosh cosidoDiseño Jumpman Air en la lengüeta",
         "images": [
             "./assets/jordan nike.jpg",
             "./assets/jordan nike2.jpg",
