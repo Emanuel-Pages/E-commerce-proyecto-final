@@ -123,7 +123,7 @@ function updateCart() {
 }
 
 // Finalizar la compra
-document.getElementById('checkout-btn').onclick = () => {
+document.getElementById('checkout-btn').onclick = (event) => {
     alert('Gracias por tu compra!');
     clearCart();
     updateCart();
