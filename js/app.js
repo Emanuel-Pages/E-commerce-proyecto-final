@@ -123,11 +123,26 @@ function updateCart() {
 }
 
 // Finalizar la compra
-document.getElementById('checkout-btn').onclick = (event) => {
-    alert('Gracias por tu compra!');
-    clearCart();
-    updateCart();
+document.getElementById('checkout-btn').onclick = () => {
+    try {
+        alert('Gracias por tu compra!');
+        
+        if (typeof clearCart === 'function') {
+            clearCart();
+        } else {
+            console.error('La función clearCart no está definida');
+        }
+
+        if (typeof updateCart === 'function') {
+            updateCart();
+        } else {
+            console.error('La función updateCart no está definida');
+        }
+    } catch (error) {
+        console.error('Ocurrió un error durante el proceso de compra:', error);
+    }
 };
+
 document.addEventListener('DOMContentLoaded', () => {
     const checkoutButton = document.getElementById('checkout-btn');
     if (checkoutButton) {
