@@ -128,6 +128,17 @@ document.getElementById('checkout-btn').onclick = () => {
     clearCart();
     updateCart();
 };
+document.addEventListener('DOMContentLoaded', () => {
+    const checkoutButton = document.getElementById('checkout-btn');
+    if (checkoutButton) {
+        checkoutButton.onclick = () => {
+            alert('Gracias por tu compra!');
+            clearCart();
+            updateCart();
+        };
+    }
+});
+
 
 // Inicializa el carrito al cargar la página
 updateCart();
