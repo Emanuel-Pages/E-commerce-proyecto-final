@@ -27,9 +27,9 @@
         "price": 300,
         "description": "Descripción del producto 3",
         "images": [
-            "ruta-a-tu-imagen/producto3-1.jpg",
-            "ruta-a-tu-imagen/producto3-2.jpg",
-            "ruta-a-tu-imagen/producto3-3.jpg"
+            "./assets/flight mvp jordan.jpg",
+            "./assets/flight mvp jordan2.jpg",
+            "./assets/flight mvp jordan3.jpg"
         ]
     }
 ]
